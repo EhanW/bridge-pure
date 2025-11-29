@@ -1,0 +1,35 @@
+from setuptools import setup
+
+setup(
+    name="ddbm",
+    py_modules=["ddbm", "evaluations", "datasets", "scripts",],
+    install_requires=[
+        "torch==2.1.0",
+        "torchvision==0.16.0",
+        "torchaudio==2.1.0",
+        "blobfile==3.0.0",
+        "packaging==24.1",
+        "ninja==1.11.1.1",
+        "kornia==0.7.3",
+        "psutil==6.0.0",
+        "tqdm==4.66.5",
+        "numpy==1.26.3",
+        "scipy==1.13.1",
+        "pandas==2.3.3",
+        "Cython==3.2.1",
+        "piq==0.7.0",
+        "joblib==0.14.0",
+        "albumentations==0.4.3",
+        "lmdb==1.5.1",
+        "clip @ git+https://github.com/openai/CLIP.git",
+        "mpi4py==4.0.0",
+        "flash-attn==2.6.3",
+        "pillow==10.2.0",
+        "wandb==0.17.9",
+        'omegaconf==2.3.0',
+        'torchmetrics==1.4.1',
+        'prdc==0.2',
+        'clean-fid==0.1.35',
+        'timm==1.0.22'
+    ],
+)
