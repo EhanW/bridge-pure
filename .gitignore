@@ -1,0 +1,47 @@
+run_scripts/
+logs/
+imgs/
+images/
+gaussian_images/
+check.py
+# Compiled python modules.
+*.pyc
+data/
+# Byte-compiled
+__pycache__/
+.cache/
+.idea/
+workdir/
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+.eggs/
+*.egg-info
+
+# PyPI distribution artifacts.
+build/
+dist/
+
+# Tests
+.pytest_cache/
+
+slurm_output/
+
+# Other
+*.DS_Store
+wandb/
+pretrained/
+trash/
+slurm*/
+*.png
+*.jpg
+
+*.ckpt
+
+.nfs*
+*.npz
+*.npy
+autoencoder/models*
+*.pt
+
+*.tar
+demo*/
